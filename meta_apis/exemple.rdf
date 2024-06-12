@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:ns3="http://purl.org/dc/elements/1.1/"
+	xmlns:ns5="http://www.opengis.net/gml#"
+	xmlns:ns2="http://www.w3.org/2004/02/skos/core#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+<rdf:Description rdf:about="https://registry.geonetwork-opensource.org/theme/exemple">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<ns3:title xml:lang="fr">exemple</ns3:title>
+	<ns3:description xml:lang="fr">This is an exemple</ns3:description>
+	<ns3:identifier>exemple.rdf</ns3:identifier>
+	<ns3:type>theme</ns3:type>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://registry.geonetwork-opensource.org/theme/exemple#44f3b4f6-3a39-4f70-9acf-3b48e31dcb56">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<ns2:prefLabel xml:lang="fr">test1</ns2:prefLabel>
+	<ns2:scopeNote xml:lang="fr">test1</ns2:scopeNote>
+	<ns5:BoundedBy rdf:nodeID="node1i05q94jvx1"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node1i05q94jvx1">
+	<rdf:type rdf:resource="http://www.opengis.net/gml#Envelope"/>
+	<ns5:lowerCorner> </ns5:lowerCorner>
+	<ns5:upperCorner> </ns5:upperCorner>
+	<ns5:srsName rdf:resource="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://registry.geonetwork-opensource.org/theme/exemple#3e6616e3-f938-4609-aa1d-86a6a3f94013">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<ns2:prefLabel xml:lang="fr">test2</ns2:prefLabel>
+	<ns2:scopeNote xml:lang="fr">test2</ns2:scopeNote>
+	<ns5:BoundedBy rdf:nodeID="node1i05q9btkx1"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node1i05q9btkx1">
+	<rdf:type rdf:resource="http://www.opengis.net/gml#Envelope"/>
+	<ns5:lowerCorner> </ns5:lowerCorner>
+	<ns5:upperCorner> </ns5:upperCorner>
+	<ns5:srsName rdf:resource="http://www.opengis.net/gml/srs/epsg.xml#epsg:4326"/>
+</rdf:Description>
+
+</rdf:RDF>
